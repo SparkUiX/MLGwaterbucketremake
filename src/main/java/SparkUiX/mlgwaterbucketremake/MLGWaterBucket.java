@@ -68,7 +68,6 @@ public class MLGWaterBucket
             if (player == null) return;
 //            checkNearbyWaterAndGetLookAngles(4.4);
 //            System.out.printf("Playerssssssss: %s\n", player.getName().getString());
-            System.out.printf("PlayergetDeltaMovement: %s\n", player.getDeltaMovement().y);
             if (!PickInWater&&player.isInWater()&&Math.abs(player.getDeltaMovement().y+0.005)<=0.001) {
 //            ((MinecraftMixin) Minecraft.getInstance()).$rightClickMouse();
                 LookAngles lkat=checkNearbyWaterAndGetLookAngles(4.4);
